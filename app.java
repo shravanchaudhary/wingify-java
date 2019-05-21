@@ -1,3 +1,14 @@
+/**
+* This is the way you can document your program
+*
+* @author  Write the author name here
+* @version Version
+* @since   Date in any format
+*
+*/
+
+// To know more about documentation visit https://www.tutorialspoint.com/java/java_documentation.htm
+
 // This class can be extended
 class User {
 	private int id;
@@ -7,6 +18,18 @@ class User {
 		this.id = id;
 		this.name = name;
 	}
+	/**
+   * This is how you can give a description of your method in java documentation
+   * Write appropriate definition of your method here
+   * The below tags are useful in defining parameters and return type of your method
+   * @param a Type int, defines number of ....
+   * @param b Type String, defines ....
+   * @return Type int This returns 3
+   */
+	public int documentedMethod(int a, String b){
+		return 3;
+	}
+
 	public void setName(String name){
 		this.name = name;
 	}
